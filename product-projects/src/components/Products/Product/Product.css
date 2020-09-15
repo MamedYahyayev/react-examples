@@ -1,0 +1,26 @@
+.Product {
+  width: 20%;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.Modal {
+  width: 600px;
+  z-index: 1;
+  background-color: rgb(236, 244, 246);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.Modal img {
+  padding: 10px;
+  width: 260px;
+  height: 250px;
+}
+
+.ModalInputs {
+  width: 200px;
+}

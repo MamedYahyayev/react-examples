@@ -1,0 +1,25 @@
+.Display {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(226, 14, 85);
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.Result {
+    position: absolute;
+    font-size: 80px;
+    bottom: 60px;
+    right: 10px;
+    color: white;
+}
+
+.Calculation {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+}
+

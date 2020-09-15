@@ -1,0 +1,12 @@
+.Products {
+  width: 75%;
+  background: #90caf9;
+  height: 100vh;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}

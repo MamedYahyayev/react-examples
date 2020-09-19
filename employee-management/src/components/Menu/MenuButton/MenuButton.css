@@ -1,0 +1,10 @@
+.MenuButton button {
+  max-width: 80%;
+  width: 50vw;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: 1px solid none;
+  outline: none;
+  font-size: 20px;
+}

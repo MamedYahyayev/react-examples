@@ -22,3 +22,21 @@ th {
   background-color: #4caf50;
   color: white;
 }
+
+.delete {
+  font-size: large;
+  color: rgb(219, 64, 64);
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.update {
+  font-size: large;
+  color: black;
+}
+
+.update:hover {
+  cursor: pointer;
+}

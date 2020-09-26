@@ -1,6 +1,4 @@
-import * as actionTypes from "./actions";
-
-const initalState = {
+const initialState = {
   employees: [
     {
       id: 1,
@@ -28,10 +26,16 @@ const initalState = {
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case "":
+    case "DELETE_EMPLOYEE":
       return {
-        state,
+        ...state,
+        employees: state.employees.filter(
+          (employee) => employee.id !== action.payload
+        ),
       };
+
+    default:
+      return state;
   }
 };
 

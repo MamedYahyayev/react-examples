@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.header__search {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.header__search input {
+  margin-right: 6px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+}
+
+.header__search i {
+  border: 1px solid #aaa;
+  padding: 6px;
+  background-color: #aaa;
+  border-radius: 4px;
+  width: 30px;
+  cursor: pointer;
+}

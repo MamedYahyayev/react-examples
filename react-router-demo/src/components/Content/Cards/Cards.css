@@ -1,0 +1,33 @@
+.Cards {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 1500px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Cards {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      width: 100%;
+    }
+  }
+  

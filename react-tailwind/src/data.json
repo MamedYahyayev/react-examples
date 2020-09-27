@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9nS21qlQQmvlrWPL4kEixfNWurjN0vY1tvQ&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 2,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9nS21qlQQmvlrWPL4kEixfNWurjN0vY1tvQ&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 3,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTy1Qdg0zdKKKTA-5srjriRZq8fWTeCsSKlg&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 4,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR9nS21qlQQmvlrWPL4kEixfNWurjN0vY1tvQ&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 5,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7gn3bAqjJb3nmpP1AHVZhUFAoc_axt5HPkA&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 6,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://www.designhill.com/resize_img.php?atyp=page_file&pth=ft_ca_ct||117||contestfile_1&flp=1554116576-13511971185ca1efe0bcd5a0-26602492.jpg",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 7,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAGU2IUIBA_ctfAOEDETeuj7WuHwYZs7zCoQ&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 8,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRN-rbty9BiyjqtFcxDvXViq2piJgTOe796_A&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 9,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJnivOIDWs4Hqqxx8pD5LmCEibdbP8GuLEfA&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  },
+  {
+    "id": 10,
+    "companyName": "Articulate",
+    "work": "Fullstack Developer",
+    "publishTime": "2d ago",
+    "country": "USA",
+    "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHoYIFANGyJxXpOEX8o2VFLFpi9PKYBTEZxQ&usqp=CAU",
+    "languages": ["Javascript", "Python"],
+    "tools": ["React", "Django"]
+  }
+]

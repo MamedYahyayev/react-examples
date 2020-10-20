@@ -1,12 +1,18 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import jumboData from "./fixtures/jumbo.json";
+import Jumbotron from "./components/jumbotron";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <Jumbotron.Container>
+      {jumboData.map((jumbo) => (
+        <Jumbotron key={jumbo.id} direction={jumbo.direction}>
+          <p>{jumbo.title}</p>
+          <p>{jumbo.subTitle}</p>
+          <p>{jumbo.image}</p>
+          <p>{jumbo.alt}</p>
+        </Jumbotron>
+      ))}
+    </Jumbotron.Container>
   );
 }
-
-export default App;

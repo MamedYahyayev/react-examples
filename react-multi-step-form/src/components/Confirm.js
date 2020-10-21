@@ -13,7 +13,7 @@ export const Confirm = (props) => {
     e.preventDefault();
     props.prevStep();
   };
-
+  
   return (
     <MuiThemeProvider>
       <Fragment>

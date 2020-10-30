@@ -1,0 +1,13 @@
+.about__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.about__content img {
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+    box-shadow: 0 4px 5px #aaa;
+}

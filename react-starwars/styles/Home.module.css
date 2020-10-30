@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 11, 11);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header h1 {
+  letter-spacing: 10px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav li {
+  font-size: 18px;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.header__nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.toys {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toy {
+  box-shadow: 2px 3px 5px #aaa;
+  margin-right: 20px;
+}
+
+.toy img {
+  width: 80%;
+  padding: 30px;
+}
+
+.toy h1 {
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  transform: rotate(5deg);
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+  background-image: radial-gradient(
+    to right,
+    rgb(196, 241, 243),
+    rgb(71, 136, 240)
+  );
+}
+
+.toy p {
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: rgba(246, 93, 93, 0.849);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border-top: 3px solid #ccc;
+  margin-top: 20px;
+}
+
+.footer h1 {
+  letter-spacing: 50px;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.click__more {
+  color: lightcoral;
+  font-size: 40px;
+  float: right;
+  margin-right: 10px;
+  display: inline;
+}
+
+.click__more:hover {
+  text-decoration: underline;
+}

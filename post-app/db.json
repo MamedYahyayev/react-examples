@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Kubernetes",
+      "postImage": "https://i0.wp.com/dotsandbrackets.com/wp-content/uploads/2017/07/kubernetes.jpg?resize=821%2C714&ssl=1",
+      "author": "Fernando Diaz",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "1 Sep, 2018",
+      "tags": ["Kubernetes", "Docker"]
+    },
+    {
+      "id": 2,
+      "name": "Web App in Java",
+      "postImage": "https://commons.bmstu.wiki/images/5/59/Spring-boot-logo.png",
+      "author": "Alehandro Sandrea",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "22 Mar, 2019",
+      "tags": ["Java" , "Spring" , "Spring Boot"]
+    },
+    {
+      "id": 3,
+      "name": "Docker Volumes",
+      "postImage": "https://cdn.vox-cdn.com/thumbor/YiSPuNNVjUhKnYPpqzVinwYCRK8=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/11422405/Docker_logo_011.png",
+      "author": "Ventilose Torila",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "4 Oct, 2022",
+      "tags": ["Docker"]
+    },
+    {
+      "id": 4,
+      "name": "Node Js File System",
+      "postImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png",
+      "author": "Marchesone Jackosn",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "22 Dec, 2019",
+      "tags": ["Javascript", "Node JS"]
+    },
+    {
+      "id": 5,
+      "name": "React Redux",
+      "postImage": "https://hackernoon.com/hn-images/1*VeM-5lsAtrrJ4jXH96h5kg.png",
+      "author": "Sasha Stankov",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "1 Sep, 2018",
+      "tags": ["Javascript", "React" , "Redux"]
+    },
+    {
+      "id": 6,
+      "name": "C++",
+      "postImage": "https://engineering.fb.com/wp-content/uploads/2015/06/1522635669452_11.jpg",
+      "author": "Martinez Ska",
+      "authorImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_chbgTQEt7zqb3y3F-W-DxYQxJBP2Ttf4fA&usqp=CAU",
+      "postDate": "13 Sep, 2013",
+      "tags": ["C++", "C"]
+    }
+  ]
+}

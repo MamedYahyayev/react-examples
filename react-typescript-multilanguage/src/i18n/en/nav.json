@@ -1,0 +1,9 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "cards": "Cards",
+        "transfer": "Transfer Money"
+    }
+}

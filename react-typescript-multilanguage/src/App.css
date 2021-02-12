@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.languages {
+    margin: 20px;
+    width: 60px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.App h1 {
+    margin: 10px;
+    font-weight: 500;
+}

@@ -1,19 +1,23 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 import './App.css';
-
 function App() {
     let language: string[];
     language = ['en', 'az'];
-    const [currentLang, setCurrentLang] = useState<string>('en');
+    const [locale, setLocale] = useState<string>('en');
+
+    const { t } = useTranslation();
 
     function handleLanguageChange(e: React.ChangeEvent<HTMLSelectElement>): void {
-        setCurrentLang(e.target.value);
+        i18next.changeLanguage(e.target.value);
+        setLocale(e.target.value);
     }
 
     return (
         <div className="App">
-            <h1>Current Language: {currentLang}</h1>
-            <select className="languages" onChange={(e) => handleLanguageChange(e)} defaultValue={currentLang}>
+            <h1>Current Language: {locale}</h1>
+            <select className="languages" onChange={(e) => handleLanguageChange(e)} defaultValue={locale}>
                 {language.map((lang, index) => {
                     return (
                         <option key={index} value={lang}>
@@ -24,11 +28,11 @@ function App() {
             </select>
 
             <div className="navigation">
-                <a href="#home">Home</a>
-                <a href="#home">About</a>
-                <a href="#home">Services</a>
-                <a href="#home">Cards</a>
-                <a href="#home">Transfer</a>
+                <a href="#home">{t('navigation.home')}</a>
+                <a href="#about">{t('navigation.about')}</a>
+                <a href="#services">{t('navigation.services')}</a>
+                <a href="#cards">{t('navigation.cards')}</a>
+                <a href="#transfer">{t('navigation.transfer')}</a>
             </div>
         </div>
     );
